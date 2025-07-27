@@ -9,7 +9,7 @@ pip install uv
 uv sync
 ```
 
-If your OS and CUDA combination differs, edit `pyproject.toml`, delete `uv.lock`, and run the commands above.
+If you're on a different OS/CUDA, edit `pyproject.toml`, delete `uv.lock`, and run the commands above.
 
 If you're unable to use uv, install the dependencies from `pyproject.toml` manually.
 
