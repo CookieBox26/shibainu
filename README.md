@@ -1,5 +1,10 @@
 # shibainu
 
+
+- [Installing dependencies](#installing-dependencies)
+- [Running commands](#running-commands)
+
+
 ### Installing dependencies
 
 For **Linux with CUDA 12.4** or **Windows with CPU**, you can install dependencies using [uv](https://docs.astral.sh/uv/getting-started/installation/):
@@ -21,6 +26,7 @@ uv sync
 If your setup is different, edit `pyproject.toml`, delete `uv.lock`, and run the commands above.
 
 If you're unable to use uv, install the dependencies from `pyproject.toml` manually.
+
 
 ### Running commands
 
